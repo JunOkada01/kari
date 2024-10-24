@@ -11,3 +11,8 @@ print(a,c)
 for g in range(10):
     a = b + a
 print(a,b)
+a = 1
+for i in range(5):
+    a = a + a
+    print("♡"+ a)
+print(a)
